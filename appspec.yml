@@ -9,7 +9,7 @@ hooks:
       timeout: 300
       runas: ec2-user
   BeforeInstall:
-    - location: sccripts/before_install.sh
+    - location: scripts/before_install.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
